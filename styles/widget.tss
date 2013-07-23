@@ -1,0 +1,21 @@
+Button: {
+	title: '',
+	
+	top: 3,
+	left: 3,
+    width: 25,
+    height: 25,
+
+    borderRadius: 3,
+    borderColor: '#fff',
+    borderWidth: 1,
+
+    backgroundColor: 'transparent',
+    color: '#fff',
+    font:{
+    	fontSize: 18, 
+    	fontWeight: 'bold'
+    },
+    
+    style: Ti.UI.iPhone.SystemButtonStyle.PLAIN
+}
