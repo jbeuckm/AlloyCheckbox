@@ -13,7 +13,7 @@ Button: {
     backgroundColor: 'transparent',
     color: '#fff',
     font:{
-    	fontSize: 18, 
+    	fontSize: 24, 
     	fontWeight: 'bold'
     },
     
