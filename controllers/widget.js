@@ -8,11 +8,9 @@ function updateDisplay() {
 
 	if (value) {
 	    $.checkbox.title = '\u2713';
-//	    $.checkbox.backgroundColor = '#aaa';
 	}
 	else {
 	    $.checkbox.title = '';
-//	    $.checkbox.backgroundColor = '#000';
 	}
 }
  
@@ -39,7 +37,7 @@ function sendChangeEvent() {
 
 
 // init from text attribute value
-setValue(args.value == 'true');
+setValue(args.value);
 
 exports = {
 	setValue: setValue,
