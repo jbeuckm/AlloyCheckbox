@@ -10,10 +10,10 @@ describe("Checkbox Tests", function() {
 		it("can init the checkbox value with string attributes", function() {
 		
 			var tester = Alloy.createWidget("checkbox", {value:'true'});
-			expect(tester.getValue()).toEqual(true);
+			expect(tester.getValue()).toEqual('true');
 			
 			tester = Alloy.createWidget("checkbox", {value:'false'});
-			expect(tester.getValue()).toEqual(false);
+			expect(tester.getValue()).toEqual('false');
 			
 		});
 		
