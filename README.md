@@ -1,7 +1,12 @@
 **Usage**
 
 ```xml
-		<Widget src="checkbox"/>
+<Widget id="box1" src="checkbox" value="true"/>
 ```
 
-more soon...
+```javascript
+$.box1.getView().addEventListener('change', function(e){
+   alert(e); 
+});
+```
+
