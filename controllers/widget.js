@@ -39,8 +39,6 @@ function sendChangeEvent() {
 // init from text attribute value
 setValue(args.value);
 
-exports = {
-	setValue: setValue,
-	getValue: getValue
-};
+exports.setValue = setValue;
+exports.getValue = getValue;
 
