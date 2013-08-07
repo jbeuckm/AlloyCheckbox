@@ -1,10 +1,10 @@
 {
 	"id": "checkbox",
 	"name": "Checkbox",
-	"description" : "",
-	"author": "",
+	"description" : "A simple checkbox control for Alloy",
+	"author": "Joe Beuckman",
 	"version": "1.0",
-	"copyright":"Copyright (c) 2013",
+	"copyright":"no",
 	"license":"Public Domain",
 	"min-alloy-version": "1.0",
 	"min-titanium-version":"2.1",
